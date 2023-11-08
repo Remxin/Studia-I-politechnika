@@ -13,10 +13,10 @@ double calcExactVal(double x) {
     return pow(1.0 + x, -3. / 2.);
 }
 
-void calcApproximateVal(double x, int i, double *sum, int *prevT, int *prevB, double *prevEq) {
+double calcApproximateVal(double x, int i, double sum, int *prevT, int *prevB, double *prevEq) {
     if (i == 0) {
-        *sum = 1;
-        return;
+        sum = 1.;
+        return sum;
     }
 
     // multiply prev top and bottom vals
@@ -28,11 +28,11 @@ void calcApproximateVal(double x, int i, double *sum, int *prevT, int *prevB, do
     *prevB += 2;
 
     if (i % 2 == 0) { // even (+)
-        *sum += *prevEq;
+        sum += *prevEq;
     } else { // odd (-)
-        *sum -= *prevEq;
+        sum -= *prevEq;
     }
-
+    return sum;
 
 }
 
@@ -69,10 +69,41 @@ double input(char text[]) {
 
 }
 
-
-
 void writeToFile(double x, double exact, double approx, int i, char text[]) {
     fprintf(fp, "%lf\t\t%lf\t\t%lf\t\t%d\t\t%s\n", x, exact, approx, i, text);
+}
+
+void szereg(double md, int i, double d, double skok, int maxIter, double *x, double *exact, double *sum, int *j, char *text[]) {
+    *x = md + i * skok;
+    *exact = calcExactVal(*x);
+    int iter = 0;
+
+    double diff; // pozniej: dokladna wartosc - przyblizona
+
+    // okreslanie dokladnej wartosci
+    *sum = 0;
+    int prevT = 3; // previous top value
+    int prevB = 2; // previous bottom value
+
+    double prevEq = 1; // previous multiply value
+    int ok = 0;
+    do {
+        *sum = calcApproximateVal(*x, iter, *sum, &prevT, &prevB, &prevEq);
+        diff = fabs(prevEq);
+
+        if (diff <= d) {
+            *j = iter;
+            *text = "osiagnieto wymagana dokladnosc";
+            ok = 1;
+            break;
+        }
+
+        iter++;
+    } while (iter < maxIter);
+    if (!ok)  {
+        *j = iter;
+        *text = "nie osiagnieto (limit iteracji przekroczony)";
+    }
 }
 
 
@@ -95,7 +126,6 @@ int main() {
     int parts = (int) input("Podaj na ile czesci ma byc podzielony zakres: ");
     if (parts < 1) endWithErr("w podziale zakresu", "Nie mozna podzielic przedzialu na te ilosc!");
     double skok = (Md - md) / parts;
-    printf("Skok wynosi %lf\n", skok);
 
     // pobieranie delty (wymaganej dokladnosci)
     double d = input("Podaj wymagana dokladnosc (delta): ");
@@ -104,37 +134,13 @@ int main() {
 
 
 
-    // definiuje dokladna wartosc skoku
+    // obliczanie sumy i wypisywanie jej do pliku
+    double x, exact, sum;
+    int j;
+    char *text;
     for (int i = 0; i <= parts; i++) {
-
-        double currSkokVal = md + i * skok;
-        double exact = calcExactVal(currSkokVal);
-        int iter = 0;
-
-        double diff; // pozniej: dokladna wartosc - przyblizona
-
-        // okreslanie dokladnej wartosci
-        double sum = 0;
-        int prevT = 3; // previous top value
-        int prevB = 2; // previous bottom value
-
-        double prevEq = 1; // previous multiply value
-        int ok = 0;
-
-        do {
-            calcApproximateVal(currSkokVal, iter, &sum, &prevT, &prevB, &prevEq);
-            diff = fabs(exact - sum);
-
-            if (diff <= d) {
-                //    x       exactval        approx val      iter       done?
-                writeToFile(currSkokVal, exact, sum, iter, "osiagnieto wymagana dokladnosc");
-                ok = 1;
-                break;
-            }
-            iter++;
-        } while (iter < maxIter);
-        if (!ok)  writeToFile(currSkokVal, exact, sum, iter, "nie osiagnieto (limit iteracji przekroczony)");
-
+        szereg(md, i, d, skok, maxIter, &x, &exact, &sum, &j, &text);
+        writeToFile(x, exact, sum, j, text);
     }
 
     fclose(fp);
