@@ -1,0 +1,3 @@
+/Users/dawid/Documents/school/JiPP/W3/cmake-build-debug/CMakeFiles/W3.dir
+/Users/dawid/Documents/school/JiPP/W3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dawid/Documents/school/JiPP/W3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
