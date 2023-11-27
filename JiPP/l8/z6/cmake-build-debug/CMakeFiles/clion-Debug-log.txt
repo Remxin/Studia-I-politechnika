@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/dawid/Documents/school/JiPP/l8/z6 Select CMakeLists.txt
