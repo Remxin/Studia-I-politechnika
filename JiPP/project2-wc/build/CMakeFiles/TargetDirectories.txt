@@ -1,0 +1,3 @@
+/Users/dawid/Documents/school/JiPP/project2-wc/build/CMakeFiles/project2.dir
+/Users/dawid/Documents/school/JiPP/project2-wc/build/CMakeFiles/edit_cache.dir
+/Users/dawid/Documents/school/JiPP/project2-wc/build/CMakeFiles/rebuild_cache.dir
