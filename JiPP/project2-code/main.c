@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include "header.h"
 
-#define BUFFOR_LEN 5500
-#define MAX_STRLEN 5500
+#define BUFFOR_LEN 10000
+#define MAX_STRLEN 10000
 
 
 int main() { // wyczyścić standardowe wejście + polskie znaki
@@ -30,6 +30,12 @@ int main() { // wyczyścić standardowe wejście + polskie znaki
     if (choice != 1 && choice != 2) error(6, "wyboru mozna dokonac tylko pomiedzy 1, a 2");
 
     printNewTextTab(rows, cols, words, choice);
+
+ 
+    for (i = 0; i < rows; i++) {
+        free(words[i]);
+    }
+    free(words);
 
     ZamknijPlik();
     return 0;

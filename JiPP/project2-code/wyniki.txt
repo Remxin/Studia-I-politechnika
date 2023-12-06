@@ -1,18 +1,12 @@
- 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	
- 	 	 	 	 	9	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	
- 	 	 	 	 	3	 	r	 	 	 	 	 	 	 	 	 	 	 	 	 	
- 	 	 	 	 	6	 	e	 	 	 	 	 	 	 	 	 	 	 	 	 	
- 	 	 	 	 	b	 	p	p	 	 	u	 	 	 	 	 	 	 	 	 	
- 	 	 	 	 	b	 	r	r	 	 	s	 	 	 	 	 	 	 	 	 	
-K	 	 	 	O	�	 	e	z	 	o	z	 	 	 	 	 	 	 	 	 	
-l	 	 	 	l	z	 	z	e	 	l	e	 	 	 	 	 	 	 	 	 	
-a	 	 	 	i	e	 	e	z	 	i	r	 	 	 	 	 	 	 	I	 	
-s	 	 	 	m	s	 	n	b	 	m	e	 	 	 	z	 	 	 	g	 	
-y	m	Z	 	p	t	 	t	n	k	p	g	 	w	 	d	 	 	Z	r	 	
-f	e	i	I	i	a	p	o	a	o	i	o	 	z	 	o	 	 	i	z	 	
-i	d	m	g	j	w	a	w	r	m	j	w	 	g	l	b	m	 	m	y	 	
-k	a	o	r	s	i	ń	a	o	i	s	a	 	l	i	y	e	n	o	s	 	
-a	l	w	z	k	e	s	n	d	t	k	n	 	ę	c	t	d	a	w	k	 	
-c	o	y	y	i	n	t	y	o	e	i	y	p	d	z	y	a	b	y	a	 	
-j	w	c	s	c	i	w	c	w	t	e	c	o	e	b	c	l	I	c	c	 	
-a	a	h	k	h	e	,	h	e	y	,	h	d	m	y	h	i	V	h	h	 	
+ 	 	 	 	p	 	 	 	 	z	 	 	 	 	 	 	 	 	 	w	 	 	B	 	 	 	 	 	 	 	 	 	 	 	 	 	
+ 	 	 	 	a	 	 	 	m	a	 	 	 	 	 	 	 	 	 	y	 	 	e	k	 	 	 	 	 	 	 	 	 	 	 	 	
+ 	 	 	 	ź	 	 	 	i	t	 	 	 	 	 	 	 	 	 	d	 	 	z	o	 	 	 	 	K	 	 	 	 	 	 	 	
+ 	 	 	 	d	 	e	a	n	y	 	 	 	A	 	 	 	 	 	a	 	 	p	n	 	 	 	Z	r	 	 	 	 	 	 	 	
+ 	 	 	 	z	 	m	n	i	t	A	 	 	t	 	 	r	 	 	r	 	 	o	t	 	 	 	a	ó	 	 	 	 	 	 	 	
+ 	 	 	 	i	 	i	i	s	u	q	 	 	l	k	 	o	 	 	z	 	 	ś	y	 	A	 	g	l	 	 	 	 	g	 	 	
+ 	 	 	 	e	 	t	m	e	ł	u	 	 	a	t	 	z	 	 	e	 	f	r	n	f	q	 	i	e	 	 	u	 	r	 	 	
+ 	 	 	 	r	 	o	o	r	o	a	 	 	n	ó	a	g	 	 	n	 	i	e	u	i	u	 	n	s	 	 	k	 	u	 	r	
+ 	 	 	 	n	2	w	w	i	w	m	K	 	t	r	k	r	 	 	i	 	l	d	a	l	a	 	i	t	 	 	a	 	d	2	o	
+ 	 	 	 	i	0	a	a	a	a	a	i	 	i	e	c	y	s	 	a	 	m	n	c	m	m	 	o	w	 	s	z	 	n	0	k	
+O	1	d	2	k	2	n	n	l	n	n	n	o	s	g	j	w	i	p	c	 	u	i	j	u	a	 	n	o	m	i	a	2	i	2	u	
+d	4	o	8	a	1	o	y	,	y	:	g	f	,	o	a	a	ę	o	h	z	.	a	a	,	n	i	e	,	a	ę	ę	5	a	3	.	

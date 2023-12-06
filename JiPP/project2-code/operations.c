@@ -18,7 +18,7 @@ int **SlowaILitery(int *text, int *rows, int *cols) {
     int numBufferLen = 0;
     int maxWordLen = 0;
 
-    while ((num = text[i])) {
+    while ((num = text[i]) != '\0') {
         if (num == 32 || num == -1) {
             buffor[bufforLen][numBufferLen] = -1;
             bufforLen++;
@@ -44,7 +44,6 @@ int **SlowaILitery(int *text, int *rows, int *cols) {
 
     *rows = maxWordLen;
     *cols = bufforLen;
-
     return tab;
 }
 
@@ -208,7 +207,6 @@ int *encodeText(char *text) {
         i++;
     }
     hashedTab[hashedLen -1] = -1;
-
 
     return hashedTab;
 }
