@@ -1,0 +1,5 @@
+Otrzymano wymagana precyzje w liczbie iteracji: 7
+x0: 6.961564
+x1: 2.221054
+x2: -1.154151
+x3: 2.071989

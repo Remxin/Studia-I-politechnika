@@ -1,0 +1,19 @@
+Piotr
+Nowak
+2003
+ul. Warszawska 3, Krakow
+25.36
+Maria
+Kowalska
+2005
+ul. Warszawska 5, Krakow
+301.73
+Adam
+Kowalski
+ul. Warszawska 6, Krakow
+256.72
+Piotr
+Kowalski
+ul. Warszawska 80, Krakow
+765.51
+

@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/dawid/Documents/school/studia/JiPP/project2/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=c90 -o CMakeFiles/project2.dir/main.c.o -c /Users/dawid/Documents/school/studia/JiPP/project2/main.c",
+  "file": "/Users/dawid/Documents/school/studia/JiPP/project2/main.c"
+},
+{
+  "directory": "/Users/dawid/Documents/school/studia/JiPP/project2/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=c90 -o CMakeFiles/project2.dir/io.c.o -c /Users/dawid/Documents/school/studia/JiPP/project2/io.c",
+  "file": "/Users/dawid/Documents/school/studia/JiPP/project2/io.c"
+},
+{
+  "directory": "/Users/dawid/Documents/school/studia/JiPP/project2/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=c90 -o CMakeFiles/project2.dir/error.c.o -c /Users/dawid/Documents/school/studia/JiPP/project2/error.c",
+  "file": "/Users/dawid/Documents/school/studia/JiPP/project2/error.c"
+},
+{
+  "directory": "/Users/dawid/Documents/school/studia/JiPP/project2/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=c90 -o CMakeFiles/project2.dir/operations.c.o -c /Users/dawid/Documents/school/studia/JiPP/project2/operations.c",
+  "file": "/Users/dawid/Documents/school/studia/JiPP/project2/operations.c"
+}
+]
