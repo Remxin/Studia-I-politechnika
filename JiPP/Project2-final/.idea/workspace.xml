@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="139cb0b5-30eb-43db-b279-09da08f66d33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../project2-wc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2-wc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2-wc/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projekt2/.idea/projekt2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/cache-v2-bede8b193dfbc40ef5c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-bf1173b4f3cf03fbde2b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1b25086f7fb089802aaa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-23T16-12-16-0832.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/target-project2-Debug-05f6b5f22c56a3f43658.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ecade61baaf7602c109b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/project2.dir/error.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/project2.dir/io.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/project2.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/project2.dir/memory.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/project2.dir/operations.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/cmake-build-debug/wyniki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/io.c" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/io.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2-wc/operations.c" beforeDir="false" afterPath="$PROJECT_DIR$/../project2-wc/operations.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2You4izEb8KUPaZ6i4JBdLhCUR8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2-wc",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139cb0b5-30eb-43db-b279-09da08f66d33" name="Changes" comment="" />
+      <created>1701204063960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701204063960</updated>
+      <workItem from="1701204064973" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

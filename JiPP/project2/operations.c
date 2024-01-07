@@ -11,6 +11,7 @@ extern void error(int nr, char *str);
 
 char **SlowaILitery(char *text) {
     char buffor[MAX_SLOW][BUFFOR_LEN];
+    printf("%s", text);
     char znak;
     int i = 0;
 
@@ -21,7 +22,6 @@ char **SlowaILitery(char *text) {
     int maxWordLen = 0;
 
     while ((znak = text[i]) != '\0') {
-
         if (znak == ' ' || znak == '\n') {
             wordBuffer[wordBufforLen] = '\0';
             (int)strlen(wordBuffer) > maxWordLen ? maxWordLen = (int)strlen(wordBuffer) : NULL;
@@ -73,6 +73,7 @@ void printNewTextTab(int rows, int cols, char **textTab, int choice) {
     for (int i = 0; i < rows; i++) { // for test
         for (int j = 0; j < cols; j++) {
             wordSize = (int)strlen(textTab[j]);
+            printf("%s\n", textTab[j]);
 
             if (choice == 1) {
                 if (textTab[j][i] != (char)0) {

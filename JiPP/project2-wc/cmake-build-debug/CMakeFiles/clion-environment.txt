@@ -1,3 +1,4 @@
-ToolSet: 1.0 (local)Options: 
+ToolSet: w64 11.0 (local)@C:\Users\poczt\AppData\Local\Programs\CLion\bin\mingw
+Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/Users/dawid/Applications/CLion.app/Contents/bin/ninja/mac/ninja
+Options:

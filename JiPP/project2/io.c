@@ -1,6 +1,7 @@
 
-#include <printf.h>
+
 #include <stdlib.h>
+#include <stdio.h>
 
 #define MAX_STRLEN 255
 extern void error(int nr, char *str);
@@ -23,6 +24,15 @@ char *InputText(char *text) {
 
 void InitPlik() {
     if (!(fd = fopen("wyniki.txt", "w"))) error(2, "blad w otwarciu pliku");
+////    fprintf(fd, "żźąę");
+    char polish_chars[] = "ą";
+//
+//
+//    // Display each Polish character with hexadecimal values
+    for (int i = 0; i < sizeof(polish_chars) - 1; ++i) {
+//        printf("%d", polish_chars[i]);
+        fprintf(fd, "%c", polish_chars[i]);
+    }
 }
 
 void ZamknijPlik() {

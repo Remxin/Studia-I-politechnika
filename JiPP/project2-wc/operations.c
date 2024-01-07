@@ -4,8 +4,8 @@
 #include <string.h>
 #include <wchar.h>
 
-#define BUFFOR_LEN 200
-#define MAX_SLOW 16
+#define BUFFOR_LEN 1000
+#define MAX_SLOW 1000
 extern void Pisz(char c);
 extern void error(int nr, char *str);
 
@@ -43,6 +43,7 @@ char **SlowaILitery(char *text) {
         strcpy(tab[i], buffor[i]);
         tab[i][maxWordLen] = '\0';
     }
+    tab[i] = (char *)NULL;
 
 
 
@@ -52,11 +53,13 @@ char **SlowaILitery(char *text) {
 int getMaxVal (char **tab) {
     int max = 0;
     int i = 0;
-    while (tab[i] != (char*)0) {
-        if (strlen(tab[i]) > max) max = (int)strlen(tab[i]);
+
+    int dlugosc;
+    while (tab[i] != (char*)NULL) {
+        dlugosc = (int) strlen(tab[i]);
+        if (dlugosc > max) max = dlugosc;
         i++;
     }
-
     return max;
 }
 
@@ -70,6 +73,7 @@ int getTabLen(char **tab) {
 
 void printNewTextTab(int rows, int cols, char **textTab, int choice) {
     int wordSize;
+    printf("\n");
 
     for (int i = 0; i < rows; i++) { // for test
         for (int j = 0; j < cols; j++) {

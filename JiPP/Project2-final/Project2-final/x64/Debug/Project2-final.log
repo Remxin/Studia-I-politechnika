@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\Project2-final\Project2-final\main.cpp(21,12): warning C4566: character represented by universal-character-name '\u0105' cannot be represented in the current code page (1252)
+C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\Project2-final\Project2-final\main.cpp(21,12): warning C4566: character represented by universal-character-name '\u017A' cannot be represented in the current code page (1252)
+C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\Project2-final\Project2-final\main.cpp(21,12): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+  Project2-final.vcxproj -> C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\Project2-final\x64\Debug\Project2-final.exe

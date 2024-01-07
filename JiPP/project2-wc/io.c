@@ -1,8 +1,7 @@
-
-#include <printf.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-#define MAX_STRLEN 255
+#define MAX_STRLEN 1000
 extern void error(int nr, char *str);
 
 FILE *fd = NULL;
@@ -12,7 +11,7 @@ char *InputText(char *text) {
     size_t bufsize = MAX_STRLEN;
 
 
-    buffer = (char *)malloc(bufsize * sizeof( char));
+    buffer = (char *)malloc(bufsize * sizeof(char));
     if( buffer == NULL) error(3, "blad w przypisywaniu pamieci dla tekstu");
 
     printf("%s", text);
@@ -23,6 +22,13 @@ char *InputText(char *text) {
 
 void InitPlik() {
     if (!(fd = fopen("wyniki.txt", "w"))) error(2, "blad w otwarciu pliku");
+    char *b = "ąźćół";
+    printf("%s", b);
+//    for (int i = 0; i < 1000; i++) {
+//        printf("%c", 'ą');
+////        fprintf(fd,"%c", i);
+////        printf("%c", i);
+//    }
 }
 
 void ZamknijPlik() {

@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\projekt2 Select CMakeLists.txt
