@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX_ERR 5
+#define MAX_ERR 7
 static char *p[] = { ""
         ,
                      " zle dane",

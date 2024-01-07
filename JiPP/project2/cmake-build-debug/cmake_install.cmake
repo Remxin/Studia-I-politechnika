@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2
+=======
+# Install script for directory: /Users/dawid/Documents/school/studia/JiPP/project2
+>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/Users/dawid/Documents/school/studia/JiPP/project2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

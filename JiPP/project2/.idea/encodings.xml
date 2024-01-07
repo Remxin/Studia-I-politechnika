@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/main.c" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
+=======
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/wyniki.txt" charset="UTF-8" />
+>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716
   </component>
 </project>

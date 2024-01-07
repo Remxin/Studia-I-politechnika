@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2/cmake-build-debug/CMakeFiles/project2.dir
 C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+/Users/dawid/Documents/school/studia/JiPP/project2/cmake-build-debug/CMakeFiles/project2.dir
+/Users/dawid/Documents/school/studia/JiPP/project2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dawid/Documents/school/studia/JiPP/project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716

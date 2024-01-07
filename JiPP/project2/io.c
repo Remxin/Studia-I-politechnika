@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define MAX_STRLEN 255
+#define MAX_STRLEN 50500
 extern void error(int nr, char *str);
 
 FILE *fd = NULL;
@@ -14,7 +14,7 @@ char *InputText(char *text) {
 
 
     buffer = (char *)malloc(bufsize * sizeof(char));
-    if( buffer == NULL) error(3, "blad w przypisywaniu pamieci dla tekstu");
+    if (buffer == NULL) error(3, "blad w przypisywaniu pamieci dla tekstu");
 
     printf("%s", text);
     fgets(buffer, MAX_STRLEN,stdin);
@@ -23,6 +23,7 @@ char *InputText(char *text) {
 }
 
 void InitPlik() {
+<<<<<<< HEAD
     if (!(fd = fopen("wyniki.txt", "w"))) error(2, "blad w otwarciu pliku");
 ////    fprintf(fd, "żźąę");
     char polish_chars[] = "ą";
@@ -33,6 +34,9 @@ void InitPlik() {
 //        printf("%d", polish_chars[i]);
         fprintf(fd, "%c", polish_chars[i]);
     }
+=======
+    if (!(fd = fopen("wyniki.txt", "w, css=UTF-8"))) error(2, "blad w otwarciu pliku");
+>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716
 }
 
 void ZamknijPlik() {

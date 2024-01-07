@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define BUFFOR_LEN 200
-#define MAX_SLOW 16
+#define BUFFOR_LEN 5500
+#define MAX_SLOW 1000
 extern void Pisz(char c);
 extern void error(int nr, char *str);
 
@@ -106,4 +106,9 @@ void printNewTextTab(int rows, int cols, char **textTab, int choice) {
         Pisz('\n');
     }
 
+}
+
+void clearInputBuffer() {
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
 }

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+<<<<<<<< HEAD:JiPP/project3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-356e26cc427b33637433.json
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+========
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+>>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716:JiPP/project2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3374dae60d4cf914294c.json
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project2-wc",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "project2::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:JiPP/project3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-356e26cc427b33637433.json
+					"jsonFile" : "target-project2-Debug-2d53d03bc62a1ca2d03c.json",
+========
+					"jsonFile" : "target-project2-Debug-a72afcd5d0ed1da8a3f8.json",
+>>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716:JiPP/project2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3374dae60d4cf914294c.json
+					"name" : "project2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+<<<<<<<< HEAD:JiPP/project3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-356e26cc427b33637433.json
+		"build" : "C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2-wc/cmake-build-debug",
+		"source" : "C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project2-wc"
+========
+		"build" : "/Users/dawid/Documents/school/studia/JiPP/project2/cmake-build-debug",
+		"source" : "/Users/dawid/Documents/school/studia/JiPP/project2"
+>>>>>>>> 049049d255b77a116506ba7e6eaba467df74c716:JiPP/project2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3374dae60d4cf914294c.json
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
