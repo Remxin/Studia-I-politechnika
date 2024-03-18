@@ -1,0 +1,4 @@
+/Users/dawid/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/dawid/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S /Users/dawid/Documents/school/studia/AiSD/calka -B /Users/dawid/Documents/school/studia/AiSD/calka/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dawid/Documents/school/studia/AiSD/calka/cmake-build-debug

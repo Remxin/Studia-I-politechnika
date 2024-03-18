@@ -1,0 +1,3 @@
+/Users/dawid/Documents/school/studia/AiSD/calka/cmake-build-debug/CMakeFiles/calka.dir
+/Users/dawid/Documents/school/studia/AiSD/calka/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dawid/Documents/school/studia/AiSD/calka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
