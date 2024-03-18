@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 #define MAX_TABSIZE 256
 
@@ -97,7 +97,9 @@ extern FIFO_T *findFIFOTElement(FIFO_T *H[MAX_TABSIZE], int *tabLen, enum fieldT
 extern void listFIFOT(FIFO_T *H[MAX_TABSIZE], int tabLen);
 extern void dropFIFOT(FIFO_T *H[MAX_TABSIZE], int *tabLen);
 
-
+void checkSearchInput(int s) {
+    if (s < 0 || s > 2) error(5, "wybor powinien byc z przedzialu 0-2");
+}
 
 int main() {
     //
@@ -150,6 +152,7 @@ int main() {
                 else if (actionChoice == SEARCH) {
                     showFieldTypeMenu();
                     enum fieldType choice = getInt("Twoj wybor: ");
+                    checkSearchInput(choice);
                     char *searchT = "";
                     int searchI = 0;
 
@@ -188,6 +191,7 @@ int main() {
                 } else if (actionChoice == SEARCH) {
                     showFieldTypeMenu();
                     enum fieldType choice = getInt("Twoj wybor: ");
+                    checkSearchInput(choice);
                     char *searchT = "";
                     int searchI = 0;
 
@@ -222,6 +226,7 @@ int main() {
                 } else if (actionChoice == SEARCH) {
                     showFieldTypeMenu();
                     enum fieldType choice = getInt("Twoj wybor: ");
+                    checkSearchInput(choice);
                     char *searchT = "";
                     int searchI = 0;
 
@@ -254,6 +259,7 @@ int main() {
                 else if (actionChoice == SEARCH) {
                     showFieldTypeMenu();
                     enum fieldType choice = getInt("Twoj wybor: ");
+                    checkSearchInput(choice);
                     char *searchT = "";
                     int searchI = 0;
 

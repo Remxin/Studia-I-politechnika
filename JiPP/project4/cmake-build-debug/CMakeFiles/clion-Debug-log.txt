@@ -1,4 +1,10 @@
-C:\Users\poczt\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/poczt/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\project4 -B C:\Users\poczt\Documents\school\Studia-I-politechnika\JiPP\project4\cmake-build-debug
--- Configuring done (0.2s)
+/Users/dawid/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/dawid/Documents/school/studia/JiPP/project4 -B /Users/dawid/Documents/school/studia/JiPP/project4/cmake-build-debug
+-- The C compiler identification is AppleClang 13.0.0.13000029
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (14.3s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/poczt/Documents/school/Studia-I-politechnika/JiPP/project4/cmake-build-debug
+-- Build files have been written to: /Users/dawid/Documents/school/studia/JiPP/project4/cmake-build-debug

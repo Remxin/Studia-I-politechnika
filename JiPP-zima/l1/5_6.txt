@@ -1,0 +1,18 @@
+Zadanie 5
+- operacje arytmetyczne
+- operacje logiczne
+- operacje bitowe
+- przypisanie
+- porównywanie
+- odwołanie do adresu
+- odwołanie do wartości
+- konwertowanie (na inne typy zmiennych)
+- sprawdzenie rozmiaru
+
+Zadanie 6
+memory leak - sytuacje w której program nieprawidłowo dysponuje zasobami pamięci. Może się on wydarzyć np. kiedy
+            programista zapomni zwolnić nieużywanej pamięci, bądź gdy program próbuje odwołać się do lokalizacji,
+            do której nie posiada uprawnień
+
+garbage collector - somodzielnie zwalnia pamięć nieużywaną przez program oraz upewnia się, że program nie przekroczy
+                    rozmiaru przydzielonej mu pamięci
