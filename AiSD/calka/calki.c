@@ -3,7 +3,7 @@
 #include <time.h>
 #include <float.h>
 
-#define lp 10000000
+#define lp 1000000
 
 double c_od,c_do;
 
@@ -54,9 +54,9 @@ double prostokaty(double( *f)(double))
     double krok, prev, current, suma=0;
     krok=(c_do-c_od)/lp;
 
-    prev = (*f)(c_od);
+    prev = fabs((*f)(c_od));
     for (double x = c_od; x <= c_do; x += krok) {
-        current = (*f)(x);
+        current = fabs((*f)(x));
         suma += (prev + current);
         prev = current;
     }
@@ -65,9 +65,9 @@ double prostokaty(double( *f)(double))
 
 double trapezy(double (*f)(double)) {
     double krok = (c_do-c_od)/lp;
-    double calka = ((*f)(c_od)+(*f)(c_do))/2;
+    double calka = (fabs((*f)(c_od))+fabs((*f)(c_do)))/2;
     for (double x = c_od + krok; x < c_do; x += krok) {
-        calka += (*f)(x);
+        calka += fabs((*f)(x));
     }
     return calka * krok;
 }
@@ -87,8 +87,7 @@ double mc(double(*f)(double))
          py = getRandomNum(minV, maxV);
          pxVal = (*f)(px);
 
-         if (py >= 0 && py <= pxVal) lpkt++;
-         else if (py < 0 && py >= pxVal) lpkt--;
+         if ((py >= 0 && py <= pxVal) || (py < 0 && py >= pxVal)) lpkt++;
     }
 
     double rectF = (c_do - c_od) * (maxV - minV);
