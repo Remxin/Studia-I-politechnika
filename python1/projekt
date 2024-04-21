@@ -1,0 +1,11 @@
+dobra dokumentacja
+
+program, typu łatwy tour, gdzie trzymalibyśmy w dokumencie, przydatne dane, np
+identyfikator bankowy, hasła (zahaszowane), do tego można się dostać otwierało się na password
+program otwiera się szybko, np. na pasku zadań
+- klikam myszka dwa razy i podświetla się napis i kopiuje się hasło na 5s
+- key pass
+- jak najprostsze
+- dodawanie nowych kluczy i haseł
+
+w tkinter

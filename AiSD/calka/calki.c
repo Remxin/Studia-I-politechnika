@@ -56,7 +56,7 @@ double prostokaty(double( *f)(double))
 
     prev = fabs((*f)(c_od));
     for (double x = c_od; x <= c_do; x += krok) {
-        current = fabs((*f)(x));
+        current = (*f)(x);
         suma += (prev + current);
         prev = current;
     }
@@ -65,9 +65,9 @@ double prostokaty(double( *f)(double))
 
 double trapezy(double (*f)(double)) {
     double krok = (c_do-c_od)/lp;
-    double calka = (fabs((*f)(c_od))+fabs((*f)(c_do)))/2;
+    double calka = ((*f)(c_od)+(*f)(c_do))/2;
     for (double x = c_od + krok; x < c_do; x += krok) {
-        calka += fabs((*f)(x));
+        calka += (*f)(x);
     }
     return calka * krok;
 }
@@ -87,7 +87,8 @@ double mc(double(*f)(double))
          py = getRandomNum(minV, maxV);
          pxVal = (*f)(px);
 
-         if ((py >= 0 && py <= pxVal) || (py < 0 && py >= pxVal)) lpkt++;
+         if ((py >= 0 && py <= pxVal)) lpkt++;
+         else if (py < 0 && py >= pxVal) lpkt--;
     }
 
     double rectF = (c_do - c_od) * (maxV - minV);
