@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/dawid/Documents/school/studia/AiSD/sortowanie Select CMakeLists.txt

@@ -8,9 +8,6 @@
 double c_od,c_do;
 
 
-void initRandom() {
-    srand(time(NULL));
-}
 
 double getRandomNum(double min, double max) {
     return min + ((double)rand() / RAND_MAX) * (max - min);
@@ -20,18 +17,13 @@ void assingMinMaxForRange(double *min, double *max, double( *f)(double)) {
     double m = DBL_MAX;
     double M = -DBL_MAX;
 
-
     double krok=(c_do-c_od)/lp;
     double current;
 
     for (double x = c_od; x <= c_do; x += krok) {
         current = (*f)(x);
-        if (current > M) {
-            M = current;
-        }
-        if (current < m) {
-            m = current;
-        }
+        if (current > M) M = current;
+        if (current < m) m = current;
     }
     *min = m;
     *max = M;
@@ -76,6 +68,7 @@ double trapezy(double (*f)(double)) {
 
 double mc(double(*f)(double))
 {
+    srand(time(NULL));
     double minV, maxV;
     double px, py, pxVal;
     int lpkt = 0;

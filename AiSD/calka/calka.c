@@ -28,7 +28,6 @@ double f2(double x)
 
 int main(int argc, char *argv[])
 {
-    initRandom();
     printf("od=");
     scanf("%lf",&c_od);
     printf("do=");
